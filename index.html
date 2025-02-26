@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scisccors</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <!-- <script src="javascript.js" defer></script> -->
+  <script src="javascript.js" defer></script>
+</head>
+
+<body>
+
+  <main class="main container">
+
+    <div class="instructions container">
+      <h1>ROCK PAPER SCISSORS</h1>
+      <h2>The game ends when one of the players wins 5 rounds</h2>
+    </div>
+
+    <div class="selection container">
+      <div class="info container">
+        <p>Choose your Hand</p>
+      </div>
+      <div class="buttons container">
+        <button class="buttons icon" id="rock">✊</button>
+        <button class="buttons icon" id="paper">✋</button>
+        <button class="buttons icon" id="scissors">✌️</button>
+      </div>
+    </div>
+
+    <div class="round container">
+      <div class="play container">
+
+        <div class="human container">
+          <div class="human score container">
+            <p id="humanScore">0</p>
+          </div>
+          <div class="human choice container">
+            <div class="human icon container">
+              <p>💁</p>
+            </div>
+            <div class="human sign container">
+              <p id="humanSign"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="versus container">
+          <p>VS</p>
+        </div>
+
+        <div class="computer container">
+          <div class="computer score container">
+            <p id="computerScore">0</p>
+          </div>
+          <div class="computer choice container">
+            <div class="computer sign container">
+              <p id="computerSign"></p>
+            </div>
+            <div class="computer icon container">
+              <p>🤖</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="info container">
+        <p id="roundMessage"></p>
+      </div>
+    </div>
+
+    <div class="result container">
+      <p id="winnerMessage"></p>
+    </div>
+    <div class="reset container">
+      <button class="buttons" id="reset">PLAY AGAIN</button>
+    </div>
+
+  </main>
+</body>
+
+</html>

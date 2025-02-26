@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Monospace, Arial, 'Times New Roman', Courier, 'Courier New', 
+                 Georgia, 'Arial Narrow', sans-serif;
+}
+
+.container {
+    border: 2px solid gray;
+    margin: 2px;
+    padding: 2px;
+    align-content: center;
+    text-align: center;
+}
+
+.icon, .sign {
+    font-size: 75px;
+}
+
+.buttons.container, .play.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.human.choice.container, .computer.choice.container {
+    display: flex;
+}
